@@ -1,0 +1,11 @@
+import canonicalLaneMathlib.AdmissibleClass
+
+namespace HautevilleHouse
+namespace ChemicalEngineeringAbsorptionStrippingFoundationCanonicalLaneLean
+
+structure AdmittedObject where
+  properties : Prop
+  conclusion : properties
+
+end ChemicalEngineeringAbsorptionStrippingFoundationCanonicalLaneLean
+end HautevilleHouse

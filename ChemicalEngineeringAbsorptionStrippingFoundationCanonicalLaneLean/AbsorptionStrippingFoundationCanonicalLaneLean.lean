@@ -1,0 +1,13 @@
+import canonicalLaneMathlib.AdmissibleClass
+import AbsorptionStrippingKinetics
+import EquilibriumStageModel
+import PackedColumnDesign
+import StripperDesign
+import MassTransferCoefficient
+
+namespace HautevilleHouse
+namespace ChemicalEngineeringAbsorptionStrippingFoundationCanonicalLaneLean
+
+-- Root module for the Absorption Stripping Foundation
+end ChemicalEngineeringAbsorptionStrippingFoundationCanonicalLaneLean
+end HautevilleHouse

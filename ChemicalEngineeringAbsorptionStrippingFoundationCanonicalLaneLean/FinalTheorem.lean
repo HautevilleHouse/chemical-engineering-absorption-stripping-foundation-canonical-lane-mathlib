@@ -1,0 +1,16 @@
+import canonicalLaneMathlib.AdmissibleClass
+import HautevilleHouse.ChemicalEngineeringAbsorptionStrippingFoundationCanonicalLaneLean.AbsorptionStrippingModels
+import HautevilleHouse.ChemicalEngineeringAbsorptionStrippingFoundationCanonicalLaneLean.StageEfficiency
+
+namespace HautevilleHouse
+namespace ChemicalEngineeringAbsorptionStrippingFoundationCanonicalLaneLean
+
+def ConstrainedAbsorptionStrippingClosure (A : AdmissibleClass) : Prop :=
+  bridgeClosed A ∧ gateClosed A
+
+theorem constrained_absorption_stripping_endgame (A : AdmissibleClass) :
+    ConstrainedAbsorptionStrippingClosure A := by
+  exact And.intro (bridge_from_admissible_class A) (gate_from_admissible_class A)
+
+end ChemicalEngineeringAbsorptionStrippingFoundationCanonicalLaneLean
+end HautevilleHouse
